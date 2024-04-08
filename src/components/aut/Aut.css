@@ -1,0 +1,76 @@
+.aut {
+    background-color: rgb(219, 219, 219);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.aut1{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.aut_div{
+    width: 70%;
+    padding: 10px;
+    margin-top: 50px;
+    display: grid;
+    gap: 25px;
+    grid-template-columns: 1fr 1fr;
+
+    
+
+}
+.aut_div_menu{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+   height: 100px;
+   border-radius: 5px;
+  
+}
+.aut_div_menu:hover{
+    background-color: rgb(172, 172, 172);
+    cursor: pointer;
+}
+.authr{
+    width: 100%;
+
+}
+.autbut{
+    color: black;
+    margin-top: 40px;
+    border: none;
+    width: 70%;
+    height:40px ;
+    background-color: rgb(172, 172, 172);
+    cursor: pointer;
+}
+.autbut:hover{
+    background-color: gray;
+}
+.aut_div_menu1{
+    margin-top: 25px;
+    width: 70%;
+}
+.aut_div_menu1>div{
+    display: flex;
+    align-items: start;
+    padding: 15px 0;
+}
+.aut_div_menu1>div>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aut_div_menu1>div>div>b{
+    margin-left: 10px;
+}

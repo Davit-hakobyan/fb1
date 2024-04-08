@@ -1,0 +1,111 @@
+.messenger {
+  width: 100%;
+}
+.messenger_div {
+  width: 100%;
+
+  display: flex;
+}
+.messuser {
+  width: 20%;
+  height: 700px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.messmesig {
+  width: 70%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid rgb(128, 0, 0);
+}
+.messigcank {
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  background-color: rgb(218, 218, 218);
+  border: 1px solid gray;
+  padding: 10px 0px;
+}
+.messigcank:hover {
+  background-color: white;
+}
+.imgusermessij {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid blue;
+}
+.red {
+  font-size: 20px;
+  margin: 8px;
+
+  padding-right: 50px;
+
+  display: flex;
+  justify-content: end;
+
+  color: rgb(17, 4, 126);
+}
+.red > b {
+  border-radius: 50px;
+  background-color: rgb(14, 174, 223);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 100px;
+  padding-right: 20px;
+}
+.grin {
+  font-size: 20px;
+  color: green;
+  margin: 8px;
+
+  padding-left: 50px;
+  display: flex;
+}
+.grin > b {
+  border-radius: 50px;
+  background-color: rgb(128, 238, 113);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 100px;
+}
+.recipientUser {
+  width: 100%;
+  height: 60px;
+  background-color: gray;
+}
+.perepis {
+  width: 100%;
+  height: 580px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.input_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 60px;
+  background-color: aqua;
+}
+.input_div > input {
+  width: 60%;
+  height: 30px;
+  border-radius: 8px 0px 0px 8px;
+  border: none;
+}
+.input_div > button {
+  height: 32px;
+  border: 2px solid white;
+  border-radius: 0px 8px 8px 0px;
+}

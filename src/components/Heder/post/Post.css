@@ -1,0 +1,68 @@
+.posts {
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.post {
+  width: 50%;
+}
+.postUsername {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.post_div1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.posttitle {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: start;
+  align-items: start;
+}
+.postimg {
+  width: 100%;
+  height: 500px;
+}
+.coment {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.coment1 {
+  width: 100px;
+  border-radius: 10px;
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.coment1:hover {
+  background-color: rgb(175, 175, 175);
+}
+.deletpost {
+  border: none;
+  font-size: 30px;
+  background-color: white;
+  color: gray;
+}
+.deletpost:hover {
+  background-color: white;
+}
+.likecoment {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#likeq {
+  color: #0866ff;
+}

@@ -1,0 +1,32 @@
+.slide {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contejner {
+  display: flex;
+  padding: 10px;
+  overflow: hidden;
+  height: 400px;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slaid {
+  display: flex;
+  position: relative;
+  transition: all 0.5s;
+}
+
+
+#slidebutton {
+  cursor: pointer;
+ color: #0866ff;
+}
+#slidebutton:hover {
+    cursor: pointer;
+   color: #1d4c99;
+  }
+ 

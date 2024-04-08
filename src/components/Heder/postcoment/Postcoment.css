@@ -1,0 +1,36 @@
+.comentsdiv {
+  padding: 10px;
+  width: 100%;
+  text-align: start;
+  background-color: rgb(211, 211, 211);
+  border-radius: 8px;
+}
+.comentdiv {
+    
+  width: 30%;
+  margin: 8px;
+  padding: 10px 5px;
+  background-color: aqua;
+  border-radius: 15px;
+}
+.comentinput {
+  border-radius: 5px;
+  width: 60%;
+  height: 30px;
+}
+.comentAdd {
+  border-radius: 5px;
+  background-color: grey;
+  height: 30px;
+}
+.comentimg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid blue;
+}
+.ddd{
+    display: flex;
+    align-items: center;
+   
+}

@@ -1,0 +1,57 @@
+.mecnav {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.nav {
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mec_mecdiv1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  font-size: 50px;
+  color: #0866ff;
+}
+.mes {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mes > svg:hover {
+  cursor: pointer;
+}
+.mec_mecdiv2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.mec_mecdiv2>Link>svg:hover{
+    color: #0866ff;
+    cursor: pointer;
+
+}
+.link{
+
+  color:black
+}
+.link:hover{
+  color: #0866ff;
+  cursor: pointer;
+}
